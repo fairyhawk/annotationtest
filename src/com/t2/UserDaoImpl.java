@@ -12,6 +12,6 @@ public class UserDaoImpl implements UserDao{
 	String name ;
 	
 	public void show(){
-		System.out.println("UserDaoImpl.show()");
+		System.out.println("UserDaoImpl.show()++++0000000000000");
 	}
 }

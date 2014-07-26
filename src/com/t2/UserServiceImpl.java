@@ -31,9 +31,9 @@ public class UserServiceImpl {
 	}*/
 
 	public void show() {
+	    System.out.println("UserServiceImpl 开始执行");
 	    userDao.show();
         user1Dao.show();
         user2Dao.show();
-		System.out.println("这里是Service方法........");
 	}
 }

@@ -10,6 +10,6 @@ package com.t2;
 public class User2DaoImpl implements UserDao{
 	
 	public void show(){
-		System.out.println("User2DaoImpl.show()");
+		System.out.println("User2DaoImpl.show()+++2222222222222");
 	}
 }

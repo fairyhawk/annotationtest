@@ -8,7 +8,7 @@ package com.t2;
  */
 public class TestLoad {
     public static void main(String[] args) {
-        ClassPathXMLApplicationContext path = new ClassPathXMLApplicationContext("config.xml");
+        ClassPathXMLLoad path = new ClassPathXMLLoad("annotationconfig.xml");
         UserServiceImpl userService = (UserServiceImpl) path.getBean("userService");
         userService.show();
     }
